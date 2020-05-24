@@ -20,7 +20,7 @@ Blueprint performance project
     + [Scenario's](#scenario-s)
     + [Simulations](#simulations)
   * [Targets](#targets)
-    + [:memo: Guidelines](#-memo--guidelines)
+  * [:memo: Guidelines](#-memo--guidelines)
   * [License](#license)
   * [How to Contribute](#how-to-contribute)
 - [Authors](#authors)
@@ -41,14 +41,14 @@ A simulation can be seen as the actual test. It determines what scenario's shoul
 
 <!-- START makefile-doc -->
 ```
-$ make help 
+$ make help
 init                           Commit hooks setup
 validate                       Validate with pre-commit hooks
-change                         Update changelog 
+change                         Update changelog
 ```
 <!-- END makefile-doc -->
 
-### :memo: Guidelines
+## :memo: Guidelines
 
  - :memo: Use a succinct title and description.
  - :bug: Bugs & feature requests can be be opened
