@@ -57,9 +57,9 @@ A simulation can be seen as the actual test. It determines what scenario's shoul
 <!-- START makefile-doc -->
 ```
 $ make help 
+change                         Update changelog
 init                           Commit hooks setup
-validate                       Validate with pre-commit hooks
-change                         Update changelog 
+validate                       Validate with pre-commit hooks 
 ```
 <!-- END makefile-doc -->
 
