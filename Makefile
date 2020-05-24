@@ -17,3 +17,5 @@ validate: ## Validate with pre-commit hooks
 change: ## Update changelog
 	git-chglog -o CHANGELOG.md --next-tag `semtag final -s minor -o`
 
+choose/simulation: ## Show all simulations
+	@echo "list simulations"

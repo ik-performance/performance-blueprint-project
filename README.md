@@ -40,6 +40,8 @@ A scenario contains at least one request. Typically, this is a HTTP request.
 ### Simulations
 A simulation can be seen as the actual test. It determines what scenario's should be run, and how many users should be simulated over the scenario's.
 
+For all awailable simulations `make choose/simulation`
+
 ## Mocking
 
 ### Data
@@ -58,6 +60,7 @@ A simulation can be seen as the actual test. It determines what scenario's shoul
 ```
 $ make help 
 change                         Update changelog
+choose/simulation              Show all simulations
 init                           Commit hooks setup
 validate                       Validate with pre-commit hooks 
 ```
