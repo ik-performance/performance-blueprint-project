@@ -14,6 +14,29 @@ Blueprint performance project
 ![](https://img.shields.io/github/contributors/ik-performance/performance-blueprint-project)
 ![](https://img.shields.io/github/last-commit/ik-performance/performance-blueprint-project)
 
+- [performance-blueprint-project](#performance-blueprint-project)
+  * [Running locally](#running-locally)
+    + [DSL](#dsl)
+    + [Scenario's](#scenario-s)
+    + [Simulations](#simulations)
+  * [Targets](#targets)
+    + [:memo: Guidelines](#-memo--guidelines)
+  * [License](#license)
+  * [How to Contribute](#how-to-contribute)
+- [Authors](#authors)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## Running locally
+
+### DSL
+
+### Scenario's
+A scenario contains at least one request. Typically, this is a HTTP request.
+
+### Simulations
+A simulation can be seen as the actual test. It determines what scenario's should be run, and how many users should be simulated over the scenario's.
+
 ## Targets
 
 <!-- START makefile-doc -->
